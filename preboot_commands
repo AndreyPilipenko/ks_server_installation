@@ -7,3 +7,7 @@ wget http://vault.centos.org/7.9.2009/os/x86_64/images/pxeboot/initrd.img -O ini
 після установки 
 lvextend -l +100%FREE /dev/vg/root
 resize2fs /dev/vg/root
+
+
+python3 -m http.server 8080
+ngrok http 8080
