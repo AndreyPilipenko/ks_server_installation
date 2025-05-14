@@ -1,0 +1,3 @@
+cd /boot
+wget http://vault.centos.org/7.9.2009/os/x86_64/images/pxeboot/vmlinuz -O vmlinuz-ks
+wget http://vault.centos.org/7.9.2009/os/x86_64/images/pxeboot/initrd.img -O initrd-ks.img
