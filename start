@@ -1,0 +1,1 @@
+kexec -l /boot/vmlinuz-ks --initrd=/boot/initrd-ks.img --append="inst.ks=https://your-username.github.io/centos-kickstart/ks.cfg" && kexec -e
