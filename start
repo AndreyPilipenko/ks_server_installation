@@ -2,3 +2,11 @@ kexec -l /boot/vmlinuz-ks --initrd=/boot/initrd-ks.img --append="inst.ks=https:/
 
 
 https://boot.ipxe.org/ipxe.iso
+
+
+
+ifopen net0
+set net0/ip 192.168.0.50
+set net0/netmask 255.255.255.0
+set net0/gateway 192.168.0.1
+set net0/dns 8.8.8.8
